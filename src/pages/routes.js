@@ -7,7 +7,7 @@ export default function AppRoutes() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/Movies-api" element={<Home />} />
 				<Route path="movies" element={<MoviesPage />} />
 				<Route path="tvshows" element={<TvPage />} />
 			</Routes>
