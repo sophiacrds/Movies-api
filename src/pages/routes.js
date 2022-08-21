@@ -5,7 +5,7 @@ import TvPage from "./TvPage";
 
 export default function AppRoutes() {
 	return (
-		<Router>
+		<Router basemname={`/${process.env.PUBLIC_URL}`}>
 			<Routes>
 				<Route path="/Movies-api" element={<Home />} />
 				<Route path="movies" element={<MoviesPage />} />
