@@ -14,11 +14,21 @@
 
 ## PREVIEW
 
+### Desktop
+
 <div align="center">
   <img src="./demo/demo-desktop.gif">
 </div>
+
+### Tablet
+
 <div align="center">
   <img src="./demo/demo-tablet.gif">
+</div>
+
+### Mobile
+
+<div align="center">
   <img src="./demo/demo-mobile.gif">
 </div>
 <br>
