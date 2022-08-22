@@ -12,6 +12,12 @@
 
 </div><br>
 
+Nesse projeto, iniciando meus estudos sobre rotas em react e consumo de APIs, manipulei a API <a href="https://developers.themoviedb.org/3/getting-started/introduction"> TMDB (The Movie Database)<a> para criar uma apresentação simplificada dos 20 filmes e séries mais populares na plataforma, atualizados diariamente.
+
+Para tanto, utilizei as seguintes bibliotecas:
+
+- <a href="https://axios-http.com/ptbr/">`axios`</a> para requisição da API, <a href="https://styled-components.com">`styled-components`</a> para estilização e <a href="https://reactrouter.com/docs/en/v6">`react-router-dom`</a> para criação de rotas e navegação segundo a técnica de Single-page Application (SPA).
+
 ## PREVIEW
 
 ### Desktop
