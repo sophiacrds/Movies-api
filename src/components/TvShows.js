@@ -11,8 +11,6 @@ export default class Shows extends React.Component {
 	handleShows = async () => {
 		const response = await tvApi.get();
 
-		console.log(response);
-
 		const infos = response.data.results.map((i, index) => {
 			return {
 				title: i.name,

@@ -24,10 +24,6 @@ export const Nav = styled.nav`
 	position: fixed;
 	z-index: 99;
 
-	.active li {
-		background: var(--sec-color);
-	}
-
 	@media (max-width: 750px) {
 		width: 95%;
 		margin: 0;
@@ -51,16 +47,17 @@ export const List = styled.ul`
 	}
 
 	li {
-		padding: 10px;
-		border-radius: 10px;
 		cursor: pointer;
 		font-weight: bold;
 	}
 
 	a {
 		width: 130px;
+		border-radius: 10px;
+		padding: 10px;
 		text-decoration: none;
 		color: white;
+
 		@media (max-width: 550px) {
 			width: 30%;
 		}
@@ -68,5 +65,8 @@ export const List = styled.ul`
 			width: fit-content;
 			font-size: 15px;
 		}
+	}
+	.active {
+		background: var(--sec-color);
 	}
 `;
