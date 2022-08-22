@@ -14,8 +14,10 @@ export const CardBox = styled.div`
 	overflow: hidden;
 	gap: 20px;
 
-	&:hover {
-		background: var(--card-color-hover);
+	@media (min-width: 750px) {
+		&:hover {
+			background: var(--card-color-hover);
+		}
 	}
 
 	@media (max-width: 750px) {
