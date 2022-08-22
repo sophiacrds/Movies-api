@@ -7,7 +7,7 @@ export default function Card(p) {
 		const elements = document.querySelectorAll(`.hide${id}`);
 		const elementsArr = Array.from(elements);
 
-		if (window.innerWidth > 550) {
+		if (window.innerWidth > 750) {
 			for (let i = 0; i < elementsArr.length; i++) {
 				elementsArr[i].style.display = "none";
 			}
