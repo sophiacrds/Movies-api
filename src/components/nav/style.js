@@ -24,6 +24,10 @@ export const Nav = styled.nav`
 	position: fixed;
 	z-index: 99;
 
+	.active li {
+		background: var(--sec-color);
+	}
+
 	@media (max-width: 750px) {
 		width: 95%;
 		margin: 0;
@@ -51,10 +55,6 @@ export const List = styled.ul`
 		border-radius: 10px;
 		cursor: pointer;
 		font-weight: bold;
-		background: var(--sec-color);
-		&:hover {
-			background: var(--nav-color);
-		}
 	}
 
 	a {

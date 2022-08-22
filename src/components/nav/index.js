@@ -1,21 +1,21 @@
 import React from "react";
 import { List, Nav, NavBar } from "./style";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
 	return (
 		<NavBar>
 			<Nav>
 				<List>
-					<Link to={"/"}>
+					<NavLink to={"/"}>
 						<li>Home</li>
-					</Link>
-					<Link to={"/movies"}>
+					</NavLink>
+					<NavLink to={"/movies"}>
 						<li>Movies</li>
-					</Link>
-					<Link to={"/tvshows"}>
+					</NavLink>
+					<NavLink to={"/tvshows"}>
 						<li>Tv Shows</li>
-					</Link>
+					</NavLink>
 				</List>
 			</Nav>
 		</NavBar>
