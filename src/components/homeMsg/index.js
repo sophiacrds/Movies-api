@@ -13,7 +13,7 @@ const Box = styled.section`
 
 	@media (max-width: 750px) {
 		width: fit-content;
-		height: calc(100vh - 20px);
+		height: calc(100vh - 90px);
 	}
 `;
 
